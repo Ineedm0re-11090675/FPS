@@ -1,0 +1,65 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "3.0",
+	"EngineVersion": "5.5.0",
+	"FriendlyName": "VibeUE",
+	"Description": "Local MCP dashboard and Model Context Protocol server for Unreal Engine",
+	"Category": "Editor",
+	"CreatedBy": "Kevin Buckley",
+	"CreatedByURL": "",
+	"DocsURL": "https://www.vibeue.com/docs",
+	"MarketplaceURL": "",
+	"FabURL": "com.epicgames.launcher://ue/Fab/product/5ef22486-1aa5-459c-8e12-21c3290fe3cc",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "VibeUE",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolset",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshModelingToolsetExp",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelViewViewModel",
+			"Enabled": true
+		}
+	]
+}

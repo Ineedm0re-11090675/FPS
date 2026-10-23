@@ -1,0 +1,20 @@
+# Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Generated IDE/project files
+*.sln
+*.xcodeproj/
+*.xcworkspace/
+
+# Local editor settings
+.DS_Store
+.idea/
+.vs/
+.vscode/
+
+# Plugin build products
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
